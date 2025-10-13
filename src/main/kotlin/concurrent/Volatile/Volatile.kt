@@ -26,7 +26,7 @@ class MyClass {
 }
 
 fun main() {
-    val myClass: MyClass = MyClass()
+    val myClass = MyClass()
     val maxWrites = 10_000_000
     val verificationFailed = AtomicBoolean(false)
 
